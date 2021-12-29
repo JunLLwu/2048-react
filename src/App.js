@@ -271,10 +271,12 @@ const Tile = ({tileValue}) => {
 
 const GameOver = ({score}) => {
   return (
-    <div className="gameover-message">
-      <h2>Game Over</h2>
-      <h3>Score: {score}</h3>
-      <p>Hit ESC to play again!</p>
+    <div className="gameover-background">
+      <div className="gameover-message">
+        <h2>Game Over</h2>
+        <h3>Score: {score}</h3>
+        <p>Hit ESC to play again!</p>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,8 @@
 body {
   font-family: 'Lucida Sans Unicode';
   background: #F6F7EF;
+  height: 100%;
+  margin: 0px;
 }
 
 h1 {
@@ -189,6 +191,17 @@ table {
 .color-131072 {
   background-color: #1781C8;
   font-size: 25px;
+}
+
+.gameover-background {
+  position:fixed;
+  padding:0;
+  margin:0;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background:rgba(255,255,255,0.8);
 }
 
 .gameover-message {
